@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "cWvKXOs0vjAZIHrKqoNlJXkLPv3haqubPU8nYriP4uK/4KKvDbO8WqW42oEdEOb6wR3lMhx146iSlUbFsC9U7w==",
+  "success": true,
+  "projectFilePath": "E:\\projects\\MyBlog\\MyBlog.Application.Contracts\\MyBlog.Application.Contracts.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.15\\microsoft.aspnetcore.http.features.5.0.15.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

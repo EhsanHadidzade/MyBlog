@@ -1,0 +1,57 @@
+﻿@page
+@model MyBlog.Presentation.MVC.Areas.Administrator.Pages.ArticleCategory.IndexModel
+@{
+}
+
+<div class="card">
+    <div class="card-header">
+        <h3 class="float-left">Article Category List</h3>
+        <div class="float-right">
+            <a class="btn btn-success" asp-page="./Create" asp-area="Administrator">Add New</a>
+        </div>
+    </div>
+    <div class="card-body">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Title</th>
+                    <th>Status</th>
+                    <th>CreationDate</th>
+                    <th>Operations</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.ArticleCategories)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.Title</td>
+                        @if (item.IsDeleted)
+                        {
+                            <td><p class="text-danger">Deleted</p></td>
+                        }
+                        else
+                        {
+                            <td><i class="fa fa-check fa-2x text-success"></i></td>
+                        }
+
+                        <td>@item.CreationDate</td>
+                        <td>
+                            <a asp-page="edit" asp-route-id="@item.Id" class="btn btn-warning">Edit</a>
+                            @if(item.IsDeleted)
+                            {
+                                <a asp-page-handler="Restore" asp-route-id="@item.Id" class="btn btn-success">Restore</a>
+                            }
+                            else
+                            {
+                                <a asp-page="index" asp-page-handler="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                            }
+                        </td>
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

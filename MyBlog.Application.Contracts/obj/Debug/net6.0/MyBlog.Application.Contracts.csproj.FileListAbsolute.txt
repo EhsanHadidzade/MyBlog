@@ -1,0 +1,12 @@
+E:\projects\MyBlog\MyBlog.Application.Contracts\bin\Debug\net6.0\MyBlog.Application.Contracts.deps.json
+E:\projects\MyBlog\MyBlog.Application.Contracts\bin\Debug\net6.0\MyBlog.Application.Contracts.dll
+E:\projects\MyBlog\MyBlog.Application.Contracts\bin\Debug\net6.0\ref\MyBlog.Application.Contracts.dll
+E:\projects\MyBlog\MyBlog.Application.Contracts\bin\Debug\net6.0\MyBlog.Application.Contracts.pdb
+E:\projects\MyBlog\MyBlog.Application.Contracts\obj\Debug\net6.0\MyBlog.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+E:\projects\MyBlog\MyBlog.Application.Contracts\obj\Debug\net6.0\MyBlog.Application.Contracts.AssemblyInfoInputs.cache
+E:\projects\MyBlog\MyBlog.Application.Contracts\obj\Debug\net6.0\MyBlog.Application.Contracts.AssemblyInfo.cs
+E:\projects\MyBlog\MyBlog.Application.Contracts\obj\Debug\net6.0\MyBlog.Application.Contracts.csproj.CoreCompileInputs.cache
+E:\projects\MyBlog\MyBlog.Application.Contracts\obj\Debug\net6.0\MyBlog.Application.Contracts.dll
+E:\projects\MyBlog\MyBlog.Application.Contracts\obj\Debug\net6.0\ref\MyBlog.Application.Contracts.dll
+E:\projects\MyBlog\MyBlog.Application.Contracts\obj\Debug\net6.0\MyBlog.Application.Contracts.pdb
+E:\projects\MyBlog\MyBlog.Application.Contracts\obj\Debug\net6.0\MyBlog.Application.Contracts.csproj.AssemblyReference.cache
